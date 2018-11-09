@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="@dimen/dp_100_x"-->
+    <!--android:layout_height="@dimen/dp_100_x"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<fanpeihua.huamusic.view.CircleProgressBar.CircleBarView-->
+    <!--android:id="@+id/circle_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:bar_width="@dimen/dp_20"-->
+    <!--app:bg_color="#333"-->
+    <!--app:progress_color="#f00"-->
+    <!--app:start_angle="135"-->
+    <!--app:sweep_angle="270"-->
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_progress"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:textColor="@color/black"-->
+    <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+    <fanpeihua.huamusic.view.MusicButton.MusicButton
+        android:id="@+id/music_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_launcher"
+        />
+</RelativeLayout>
+

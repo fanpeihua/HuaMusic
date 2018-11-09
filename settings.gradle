@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':musicapis'
+project(':musicapis').projectDir = new File('musicapi')
